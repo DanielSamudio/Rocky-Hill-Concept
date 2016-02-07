@@ -18,7 +18,7 @@ ul.nav.navbar-nav.pull-right {
 }
 
 ul#blue-nav li a {
-	font-family: 'Hoefler Text', 'Baskerville Old Face', Garamond, 'Times New Roman', serif;
+	font-family: 'Open Sans' , sans-serif;
 	font-size: 12px;
 	color: #fff;
 }
@@ -61,7 +61,7 @@ nav#secondary-nav {
 }
 
 ul#white-nav li a {
-	font-family: 'Hoefler Text', 'Baskerville Old Face', Garamond, 'Times New Roman', serif;
+	font-family: 'Open Sans' , sans-serif;
 	font-size: 20px;
 	font-weight: 2px;
 }
