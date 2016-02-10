@@ -106,6 +106,15 @@ display: block;
 }
 
 /*Featurettes*/
+
+.whyrhs {
+    margin: 0 auto;
+    text-align: center;
+
+}
+
+
+
 .whyrhs iframe {
 	margin: 0 auto;
 }
