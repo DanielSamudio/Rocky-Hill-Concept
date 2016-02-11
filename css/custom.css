@@ -26,7 +26,7 @@ ul#blue-nav li a {
 	font-family: 'Open Sans' , sans-serif;
 }
 
-#secondary-nav.container#white-nav li a {
+ul.dropdown-menu li a {
 	font-family: 'Lora', serif;
 }
 
@@ -67,6 +67,11 @@ nav#secondary-nav {
 	min-height: 100px;
 }
 
+li.dropdown-header {
+	text-align: center;
+}
+
+
 ul#white-nav li a {
 	
 	font-size: 20px;
@@ -105,6 +110,23 @@ font-size: 10px;
 display: block;
 }
 
+ul.dropdown-menu {
+	left: -100px;
+}
+
+
+/*Buttons*/
+
+.btn-primary {
+	background-color: #013E7F;
+}
+
+.btn-default {
+	color: #fff;
+	background-color: #013E7F;
+}
+
+
 /*Featurettes*/
 
 .whyrhs {
@@ -113,7 +135,9 @@ display: block;
 
 }
 
-
+.whyrhs.waves {
+	margin-top: -40px;
+}
 
 .whyrhs iframe {
 	margin: 0 auto;
