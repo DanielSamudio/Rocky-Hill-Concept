@@ -11,6 +11,7 @@ nav#primary-nav.navbar.navbar-inverse {
 
 div.container-fluid {
 	height: 35px;
+	margin-right: 55px;
 }
 
 ul.nav.navbar-nav.pull-right {
@@ -28,6 +29,11 @@ ul#blue-nav li a {
 
 ul.dropdown-menu li a {
 	font-family: 'Lora', serif;
+}
+
+.dropdown-toggle {
+	font-family: 'Lora', serif;
+	font-size: 15px;
 }
 
 ul#blue-nav li a .calendar {
@@ -74,7 +80,7 @@ li.dropdown-header {
 
 ul#white-nav li a {
 	
-	font-size: 20px;
+	font-size: 17.5px;
 	font-weight: 2px;
 }
 
@@ -114,6 +120,15 @@ ul.dropdown-menu {
 	left: -100px;
 }
 
+/*Carousel*/
+.first-class,
+.second-class,
+.third-class,
+.fourth-class,
+.fifth-class {
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
 
 /*Buttons*/
 
@@ -129,6 +144,12 @@ ul.dropdown-menu {
 
 /*Featurettes*/
 
+
+.vidtitle {
+	font-family: 'Lora', serif;
+	color: #013E7F;
+
+}
 .whyrhs {
     margin: 0 auto;
     text-align: center;
@@ -145,6 +166,8 @@ ul.dropdown-menu {
 
 .whyrhs img.waves, .whyrhs {
 	display: inline-block;
+	margin-left:-6px;
+	margin-right:-6px;
 }
 
 .waves {
