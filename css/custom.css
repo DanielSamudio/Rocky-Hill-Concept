@@ -22,7 +22,7 @@ ul#blue-nav li a {
 	font-size: 12px;
 	color: #fff;
 }
-#primary-nav.container-fluid#blue-nav li a {
+#primary-nav a {
 	font-family: 'Open Sans' , sans-serif;
 }
 
@@ -143,5 +143,11 @@ ul.dropdown-menu {
 	margin: 0 auto;
 }
 
+.whyrhs img.waves, .whyrhs {
+	display: inline-block;
+}
 
+.waves {
+    margin-top: -293px;
+}
 
