@@ -1,6 +1,7 @@
 * {
 	margin: 0px;
 	padding: 0px;
+	text-align: center;
 }
 
 .navbar {
@@ -188,6 +189,11 @@ h2 {
 	font-family: font-family: 'Lora', serif;
 }
 
+h3 {
+	font-size: 15px;
+}
+
+
 /*
 .image {
 	position: relative;
@@ -203,21 +209,21 @@ h2 {
 	position: relative;
 	z-index: 1;*/
 }
+p {
+	text-align: center;
+}
 
 
 
-
-
-footer>img {
-	margin-top: 40px;
+.screenshot {
 	margin-bottom: -40px;
 }
 
-.featurette img.img-zoom {
+/*.featurette img.img-zoom {
 	width: 150px;
 }
-
-.featurette img.img-zoom:hover {
+/**/
+/*.featurette img.img-zoom:hover {
 	width: 200px;
 }
-
+*/
