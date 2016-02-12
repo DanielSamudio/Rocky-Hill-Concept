@@ -204,13 +204,20 @@ h2 {
 	z-index: 1;*/
 }
 
-.img-rounded:hover {
-	height: 150px;
-	width: 225px;
-}
+
+
+
 
 footer>img {
 	margin-top: 40px;
 	margin-bottom: -40px;
+}
+
+.featurette img.img-zoom {
+	width: 150px;
+}
+
+.featurette img.img-zoom:hover {
+	width: 200px;
 }
 
