@@ -1,3 +1,8 @@
+* {
+	margin: 0px;
+	padding: 0px;
+}
+
 .navbar {
 	margin-bottom: 0px;
 	min-height: 100px;
@@ -145,7 +150,7 @@ ul.dropdown-menu {
 /*Featurettes*/
 
 
-.vidtitle {
+.bluetitle {
 	font-family: 'Lora', serif;
 	color: #013E7F;
 
@@ -172,5 +177,40 @@ ul.dropdown-menu {
 
 .waves {
     margin-top: -293px;
+}
+
+.featurette-heading {
+	text-align: center;
+	margin-top: -10px;
+	margin-bottom: 20px;
+}
+h2 {
+	font-family: font-family: 'Lora', serif;
+}
+
+/*
+.image {
+	position: relative;
+	height: 759px;
+	z-index: -1;
+	width: 100%;
+}
+
+.paracontent{
+	height: 759px;
+	width: 100%;
+	margin-top: -10px;
+	position: relative;
+	z-index: 1;*/
+}
+
+.img-rounded:hover {
+	height: 150px;
+	width: 225px;
+}
+
+footer>img {
+	margin-top: 40px;
+	margin-bottom: -40px;
 }
 
